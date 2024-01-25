@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: cover;
+*/
+  /* backgroud color image repeat position/size */
+  /*background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover; */
+  background-image: url(./assets/bg-ana_Prancheta\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+body * {
+  <uniquifier>: Use a uniquifier for the class name
+  <weight>: Use a value from 100 to 900
+
+  .inter-<uniquifier > 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  
+}
+
+#box1 {
+  width: 360px;
+  height: 712px;
+  /*border: 1px solid red;*/
+  margin: auto;
+  padding: 0 24px;
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  display: inline-block;
+  width: 112px;
+  margin: auto;
+}
+#nome {
+  font-style: bold;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(0, 90, 0);
+  font-size: 20px;
+  margin-top: 8px;
+}
+#insta {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgb(0, 96, 0);
+  font-size: 12px;
+  margin-top: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vazio {
+  width: 10px;
+  height: 10px;
+}
+#bio {
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  color: rgb(0, 96, 0);
+  font-size: 12px;
+  margin-inline: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* lista de links */
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+ul li a {
+  border: 1px solid #009b81;
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(253, 119, 190, 0.131);
+  /*backdrop-filter: blur(4px);*/
+  text-decoration: none;
+  font-weight: bold;
+  color: #01836d;
+  font-family: "Dosis", sans-serif;
+
+  transition: background 0.5s;
+}
+/*pseudo-selector*/
+ul li a:hover {
+  border: 1.5px solid #009b81;
+  background: rgba(255, 255, 255, 0.283);
+  text-decoration: underline;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transition: background 1s;
+}
+#logo:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  content: url(./assets/logo-ana-black2_Prancheta\ 1_Prancheta\ 1.png);
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+}
+#social-links a {
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+#social-links {
+  text-decoration: none;
+  color: green;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  font-size: 30px;
+  margin-top: 15px;
+}
+#social-links a:hover {
+  background: white;
+  border-radius: 50%;
+  padding: 16px;
+}
+
+#box2 {
+}
